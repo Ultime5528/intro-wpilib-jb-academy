@@ -1,0 +1,61 @@
+type: edu
+custom_name: Drive
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 101
+        length: 36
+        placeholder_text: '# TODO déclarer XboxController'
+        dependency:
+          lesson: Actuateurs
+          task: 01_joysticks
+          file: task.py
+          placeholder: 1
+        is_visible: false
+      - offset: 146
+        length: 39
+        placeholder_text: '# TODO déclarer moteur gauche'
+        dependency:
+          lesson: Actuateurs
+          task: 01_joysticks
+          file: task.py
+          placeholder: 2
+        is_visible: false
+      - offset: 194
+        length: 40
+        placeholder_text: '# TODO déclarer moteur droit'
+        dependency:
+          lesson: Actuateurs
+          task: 01_joysticks
+          file: task.py
+          placeholder: 3
+        is_visible: false
+      - offset: 243
+        length: 34
+        placeholder_text: '# TODO inverser moteur droit'
+      - offset: 330
+        length: 15
+        placeholder_text: '"moteur gauche"'
+      - offset: 347
+        length: 16
+        placeholder_text: '"moteur droit"'
+      - offset: 463
+        length: 35
+        placeholder_text: forward = self.xbox.getLeftY()
+      - offset: 507
+        length: 32
+        placeholder_text: turn = self.xbox.getLeftX()
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: exemple_drive.py
+    visible: true
+    propagatable: false
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

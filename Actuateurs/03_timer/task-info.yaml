@@ -1,0 +1,19 @@
+type: edu
+custom_name: Timer
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 733
+        length: 174
+        placeholder_text: '# Autres étapes'
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false

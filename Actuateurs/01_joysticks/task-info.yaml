@@ -1,0 +1,35 @@
+type: edu
+custom_name: Joysticks
+files:
+  - name: task.py
+    visible: true
+    placeholders:
+      - offset: 81
+        length: 36
+        placeholder_text: '# TODO déclarer XboxController'
+      - offset: 126
+        length: 39
+        placeholder_text: '# TODO déclarer moteur gauche'
+      - offset: 174
+        length: 40
+        placeholder_text: '# TODO déclarer moteur droit'
+      - offset: 254
+        length: 443
+        placeholder_text: '# TODO code'
+  - name: tests/test_task.py
+    visible: false
+    propagatable: false
+  - name: __init__.py
+    visible: false
+    propagatable: false
+  - name: tests/__init__.py
+    visible: false
+    propagatable: false
+  - name: exemple_joystick.py
+    visible: true
+    propagatable: false
+  - name: exemple_xbox.py
+    visible: true
+    propagatable: false
+  - name: assets/sim_assign_joystick.PNG
+    visible: true

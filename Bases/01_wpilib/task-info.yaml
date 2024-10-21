@@ -1,0 +1,13 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Un langage de programmation
+    is_correct: false
+  - text: Une librairie logicielle
+    is_correct: true
+  - text: Un logiciel pour gérer un robot
+    is_correct: false
+  - text: Un ensemble de règles
+    is_correct: false
+custom_name: Qu'est-ce que WPILib ?
+local_check: true

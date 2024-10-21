@@ -1,0 +1,22 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Oui
+    is_correct: true
+  - text: Non
+    is_correct: false
+files:
+  - name: robot.py
+    visible: true
+  - name: __init__.py
+    visible: false
+  - name: assets/run_sim.png
+    visible: true
+  - name: assets/sim_window.PNG
+    visible: true
+  - name: assets/sim_pwm.png
+    visible: true
+  - name: assets/sim_teleop.png
+    visible: true
+custom_name: Simuler un programme robot
+local_check: true

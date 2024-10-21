@@ -1,0 +1,13 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: Elle est entièrement écrite en Python.
+    is_correct: false
+  - text: Elle est seulement disponible pour certaines équipes.
+    is_correct: true
+  - text: Ce n'est pas une version officielle de WPILib.
+    is_correct: false
+  - text: Elle réutilise surtout le code de la version C++.
+    is_correct: true
+custom_name: Qu'est-ce que RobotPy ?
+local_check: true
